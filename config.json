@@ -1,0 +1,8 @@
+{
+  "weather_api_key": "",
+  "news_api_key": "",
+  "covid_area_type": "nation",
+  "covid_area_name": "England",
+  "weather_city_name": "Exeter",
+  "user_threshold_number": 0.25
+}
