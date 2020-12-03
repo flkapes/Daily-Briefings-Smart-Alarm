@@ -13,6 +13,7 @@ The prerequisites are as follows:
 * APScheduler
 * Requests
 * UK_COVID19
+* pytest
 
 
 All relevant settings are changeable in the config.json file included in the zip file. Two API keys are also needed. These are OpenWeatherMap and NewsAPI and again, can be added or changed in the config.json file. 
@@ -30,3 +31,4 @@ The weather_city_name can be updated to any city name, but please check https://
 The threshold for a COVID case announcement can also be adjusted by changing the user_threshold_number in the config.json file. The range is between 0 and 1.
 Once config file is updated, you can navigate to http://127.0.0.1:5000/ and begin adding alarms and briefings. Notification data will be updated once per hour, and alarms will go off at any time you set. 
 
+pytest is required for the testing functionality in the test_all.py file.
